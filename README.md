@@ -27,26 +27,17 @@ React 입문 과제였던 TodoList를 처음부터 아무것도 참조하지 않
 - list 추가 시 validation check & input 창에 focus
 - list 삭제 시 confirm message
 - 첫 화면에서 제목 input 창에 autofocus
-
-* styled-component, GlobalStyles, useRef 등 숙련 주차 강의 내용 적용
+- +@ styled-component, GlobalStyles, useRef 등 숙련 주차 강의 내용 적용
 
 ## ❗ 요구 사항
 
 ### 디자인은 취향 존중, 화면 구성은 동일하게!!
 
-1.
+1. id : unique하게
 
-2. Todo의 isDone => true : 상태 버튼의 라벨을 `취소`,<br>
-   Todo의 isDone => false : 라벨을 `완료`로 조건부 렌더링
+2. useState 훅 사용하기
 
-3. Todo의 상태 => `Working` : 위쪽에, <br>
-   Todo의 상태 => `Done` : 아래쪽에 위치하도록 구현
-
-4. Layout의 최대 넓이는 `1200px`, 최소 넓이는 `800px`로 제한하고,<br>
-   전체 화면의 가운데로 정렬
-
-5. 컴포넌트 구조는 자유롭게 구현.<br>
-   반복되는 컴포넌트를 찾아서 직접 분리하고, 분리한 컴포넌트를 `README`에 작성
+3. 컴포넌트 구조 아래와 동일하게
 
 ## 🔗 컴포넌트 구조
 
