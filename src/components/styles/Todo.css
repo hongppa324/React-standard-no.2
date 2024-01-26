@@ -1,0 +1,50 @@
+.card-wrapper {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.todo-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 10px;
+}
+
+.todo-card {
+  width: 400px;
+  height: 150px;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  border: 2px solid #117864;
+  border-radius: 10px;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 3px;
+}
+
+.del-btn,
+.move-btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.del-btn {
+  border: 2px solid red;
+}
+
+.move-btn {
+  border: 2px solid green;
+}
